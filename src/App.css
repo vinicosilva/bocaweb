@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=DynaPuff&Family=Montserrat:wght@500&display=swap");
+
+section{
+  font-family: "Dynapuff", cursive;
+  padding: 0;
+  margin: 0;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.2);
+}
+
+.span{
+  font-size: 7rem;
+  letter-spacing: 0.5rem;
+  position:absolute;
+  left: 35%;
+  padding: 0;
+  margin: 0;
+  text-shadow:  7px 7px orangered, 18px 18px black;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: white;
+}
+.busca{
+  left: 35%;
+  padding-top: 150px;
+  padding-bottom: 30px ;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 100vh;
+  background-color: rgb(228, 211, 192);
+  padding: 30px;
+}
+
+.posts {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+  gap: 30px;
+
+}
+
+.post {
+  background-color: rgb(255, 155, 97);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: transform 100ms ease-in-out;
+  
+}
+.flex{
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.post-content{
+  background-color: rgb(255, 175, 122);
+  margin-right: 10px;
+  transition: ease-in-out;
+  width: 95%;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  ;
+}
+.post-content:hover{
+  transform: scale(1.05);
+}
+
+
+.post-content h1{
+  text-align: center;
+}
+
+.busca{
+  text-align: center;
+}
+
+#search{
+  border: solid 3px orangered;
+  padding: 5px 75px 5px 5px;
+  border-radius: 10px;
+}
+
+.Footer{
+  font-weight: lighter;
+  text-align: center;
+}
+
+.olho{
+  width: 70%;
+  text-align: center;
+  padding-left: 180px;
+  padding-top: 200px;
+}
+
+.searching{
+  text-align: center;
+  padding-top: 120px;
+  margin-bottom: -120px;
+}
